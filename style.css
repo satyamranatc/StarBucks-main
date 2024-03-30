@@ -283,27 +283,27 @@ main {
 
 
 #PizzaSlider {
-    margin: auto;
-    margin-top: 50px;
+    margin: 50px auto;
+    padding: 30px;
+    width: 95vw;
+    height: 50vw;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 60vh;
-    width: fit-content;
     overflow: hidden;
   }
   
   #Slider {
-    width: 80vw;
-    height: 100%;
+    width: 90%;
+    height: 90%;
     margin: auto;
     position: relative;
   }
   
   #Slider img {
     width: 100%;
-    height: 200%;
+    height: 100%;
+    object-position: center;
     object-fit: contain;
   }
   
