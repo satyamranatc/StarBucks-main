@@ -286,7 +286,7 @@ main {
     margin: 50px auto;
     padding: 30px;
     width: 95vw;
-    height: 50vw;
+    height: 60vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -295,7 +295,7 @@ main {
   
   #Slider {
     width: 90%;
-    height: 90%;
+    height: 100%;
     margin: auto;
     position: relative;
   }
@@ -305,6 +305,13 @@ main {
     height: 100%;
     object-position: center;
     object-fit: contain;
+  }
+
+
+  #PizzaContent
+  {
+    margin: 20px auto;
+    text-align: center;
   }
   
  
@@ -450,17 +457,47 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
   }
-
-  #Coffee {
+  #Circle
+  {
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    background-position: center;
     left: 0;
+
   }
 
-  #Blob {
-    left: 50px;
-  }
 
-  #CoffeeRow {
+  #Row {
     display: none;
+  }
+  #CoffeeSection {
+  
+    margin-top: 200px;
+  }
+  #Coffee-Content {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #CoffeeSection {
+    top: 150px;
+    flex-direction: column;
+    height: fit-content;
+    margin-bottom: 100px;
+
+  }
+  #CoffeeBtn1, #CoffeeBtn2
+  {
+    font-size: 13px;
+
+  }
+
+  #PizzaSlider
+  {
+    margin-top: 100px;
   }
 }
