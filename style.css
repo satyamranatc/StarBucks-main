@@ -390,6 +390,10 @@ footer {
   color: #aaa;
   margin-top: 50px;
 }
+.social-icons ul li a
+{
+  font-size: 16px;
+}
 
 .social-icons a {
   color: #fff;
